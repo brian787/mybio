@@ -1,0 +1,58 @@
+* {
+    padding: opx;
+    margin: 0px;
+}
+body {
+    background-image: url(./images/background.png);
+}
+.avatar-image {
+    width: 400px;
+    height: 400px;
+}
+.general-text {
+    font-family: 'Gelasio', serif;
+    color: white;
+    padding: 10px;
+}
+.grey-button {
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+.grey-button:hover {
+    opacity: 0.83;
+}
+.wrapper {
+    width: 70%;
+    height: fit-content;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(46, 94, 123);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.center-footer {
+    margin: auto;
+    text-align: center;
+}
+.blog-image {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;;
+}
+.center-text {
+    text-align: center;
+}
